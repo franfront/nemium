@@ -1,0 +1,46 @@
+
+:root{
+    --white: #ffffff;
+    --gray: #A5A3A5;
+    --black: #251f24;
+}
+
+
+body{
+    background: var(--black);
+    color: var(--white);
+}
+p{
+    color:  var(--gray);
+}
+
+h1{
+    font-size: 64px;
+}
+
+header{
+    color: var(--gray);
+    font-size: 14px;
+}
+
+header a{
+    color: var(--gray);
+    text-decoration: none;
+}
+header a:hover{
+    color: var(--white);
+}
+
+nav details summary{
+    color: var(--white);
+    font-weight: bold;
+}
+
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 24px;
+}
