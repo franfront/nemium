@@ -3,6 +3,7 @@
     --white: #ffffff;
     --gray: #A5A3A5;
     --black: #251f24;
+    --graytwo: #3A3539;
 }
 
 
@@ -43,4 +44,33 @@ h2{
 
 h3{
     font-size: 24px;
+}
+
+pre{
+    background: var(--graytwo);
+    color: #ffffff;
+}
+
+.hero{
+    margin-top: 0%;
+    padding-top: 0%;
+    height: 150px;
+    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+}
+
+.section-content h3{
+    counter-increment: titleList;
+}
+
+.section-content h3::before{
+    content: counter(titleList, upper-roman) " ";
+}
+
+
+.section-content h3::after{
+    content: "";
+    width: 32px;
+    height: 4px;
+    background: var(--graytwo);
+    display: inline-block;
 }
