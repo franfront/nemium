@@ -14,6 +14,7 @@ body{
     background: var(--black);
     color: var(--white);
     margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
 p{
     color:  var(--gray);
@@ -153,3 +154,47 @@ hr{
 section{
     margin: 26px;
 }
+/*
+.slider-container{
+    block-size: 100px;
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+
+.video{
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+
+}
+*/
+/*
+@media screen and (min-width: 1366px) {
+    .hero {
+      block-size: 350px;
+    }
+    .header {
+      position: sticky;
+      inset-block-start: -45px;
+    }
+    .header-content {
+      position: relative;
+      inset-block-start: 65px;
+      padding-inline: 0;
+    }
+    header {
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-start: -208px;
+      inline-size: 188px;
+    }
+    h1 {
+      font-size: 60px;
+      margin-block-start: 64px;
+    }
+}*/
